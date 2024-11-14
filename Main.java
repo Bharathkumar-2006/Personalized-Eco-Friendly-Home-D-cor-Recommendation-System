@@ -48,13 +48,13 @@ public class Main{
             int opt2 = sc.nextInt();
             switch(opt2){
                 case 1:
-                add.Addproduct();
+                add.addDecorItem();
                 break;
                 case 2:
-                up.Updateproduct(); 
+                up.updateDecorItem(); 
                 break;
                 case 3:
-                del.Deleteproduct();
+                del.deleteDecorItem();
                 break;
                 case 4:
                 System.out.println("Thank you! Exiting...");
